@@ -1,0 +1,30 @@
+{
+  "schema_version": "workspace-skill-manifest.v1",
+  "version": 1716400000000,
+  "skills": {
+    "github-manager": {
+      "enabled": true,
+      "channels": ["all"],
+      "source": "customized",
+      "metadata": {
+        "name": "github-manager",
+        "description": "GitHub 仓库管理工具 - 创建、删除、上传、查看仓库和文件",
+        "version_text": "1.0",
+        "source": "customized",
+        "protected": false,
+        "requirements": {
+          "require_bins": ["curl"],
+          "require_envs": []
+        }
+      },
+      "requirements": {
+        "require_bins": ["curl"]
+      },
+      "config": {
+        "github_token": "<YOUR_TOKEN>",
+        "github_username": "malongan",
+        "api_base": "https://api.github.com"
+      }
+    }
+  }
+}
