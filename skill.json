@@ -1,0 +1,56 @@
+{
+  "schema_version": "workspace-skill-manifest.v1",
+  "version": 1780846658963,
+  "skills": {
+    "github-manager": {
+      "enabled": false,
+      "channels": [
+        "all"
+      ],
+      "source": "customized",
+      "metadata": {
+        "name": "github-manager",
+        "description": "",
+        "version_text": "",
+        "commit_text": "",
+        "source": "customized",
+        "protected": false,
+        "requirements": {
+          "require_bins": [],
+          "require_envs": []
+        },
+        "updated_at": "2026-06-07T11:00:01.097566Z"
+      },
+      "requirements": {
+        "require_bins": [],
+        "require_envs": []
+      },
+      "updated_at": "2026-06-07T11:00:01.097566Z"
+    },
+    "browser_cdp": {
+      "enabled": false,
+      "channels": [
+        "all"
+      ],
+      "source": "builtin",
+      "metadata": {
+        "name": "browser_cdp",
+        "description": "Use this skill when the user explicitly wants to connect to a running Chrome browser, scan local CDP ports, specify a `cdp_port`, or share a single browser across multiple agents/tools. By default, browser_use already launches the browser using managed CDP; if the user does not want to expose browser history, cookies, or other sensitive data, recommend using `private_mode=true` instead.",
+        "version_text": "1.2",
+        "commit_text": "",
+        "source": "builtin",
+        "protected": false,
+        "requirements": {
+          "require_bins": [],
+          "require_envs": []
+        },
+        "updated_at": "2026-06-07T11:00:01.097394Z"
+      },
+      "requirements": {
+        "require_bins": [],
+        "require_envs": []
+      },
+      "updated_at": "2026-06-07T11:00:01.097394Z"
+    }
+  }
+}
